@@ -1,11 +1,8 @@
 function Card(props) {
   return (
     <>
-      <div>
-        <div
-          className="card d-flex justify-content-center"
-          style={{ width: "18rem" }}
-        >
+      <div className="d-flex justify-content-center">
+        <div className="card" style={{ width: "20rem" }}>
           <img src={props.image} className="card-img-top" alt="..." />
           <div className="card-body">
             <h3 className="card-title">{props.titulo}</h3>

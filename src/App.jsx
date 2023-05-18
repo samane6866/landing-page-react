@@ -13,32 +13,37 @@ function App() {
       <h1>Landing Page React</h1>
       <Nav />
       <Hero />
-      <Footer />;
-      <div className="d-flex justify-content-center">
-        <Card
-          titulo="Gato"
-          description="This is a cat"
-          image="https://cdn2.thecatapi.com/images/3sg.gif"
-        />
-        ;
-        <Card
-          titulo="Lovely Cat"
-          description="This Marcos cat"
-          image="https://cdn2.thecatapi.com/images/bkk.jpg"
-        />
-        ;
-        <Card
-          titulo="Persian cat"
-          description="This is my lovely cat"
-          image="https://cdn2.thecatapi.com/images/MTgwMDcwNg.jpg"
-        />
-        ;
-        <Card
-          titulo="So adorable Cat"
-          description="This cat is always sleeping"
-          image="https://cdn2.thecatapi.com/images/49r.gif"
-        />
+      <div className="row g-3">
+        <div className="col-sm-3">
+          <Card
+            titulo="Gato"
+            description="This is a cat"
+            image="https://cdn2.thecatapi.com/images/3sg.gif"
+          />
+        </div>
+        <div className="col-sm-3">
+          <Card
+            titulo="Lovely Cat"
+            description="This Marcos cat"
+            image="https://cdn2.thecatapi.com/images/bkk.jpg"
+          />
+        </div>
+        <div className="col-sm-3">
+          <Card
+            titulo="Persian cat"
+            description="This is my lovely cat"
+            image="https://cdn2.thecatapi.com/images/MTgwMDcwNg.jpg"
+          />
+        </div>
+        <div className="col-sm-3">
+          <Card
+            titulo="So adorable Cat"
+            description="This cat is always sleeping"
+            image="https://cdn2.thecatapi.com/images/49r.gif"
+          />
+        </div>
       </div>
+      <Footer />
     </>
   );
 }
