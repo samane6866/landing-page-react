@@ -15,10 +15,29 @@ function App() {
       <Hero />
       <Footer />;
       <div className="d-flex justify-content-center">
-        <Card />;
-        <Card />;
-        <Card />;
-        <Card />
+        <Card
+          titulo="Gato"
+          description="This is a cat"
+          image="https://cdn2.thecatapi.com/images/3sg.gif"
+        />
+        ;
+        <Card
+          titulo="Lovely Cat"
+          description="This Marcos cat"
+          image="https://cdn2.thecatapi.com/images/bkk.jpg"
+        />
+        ;
+        <Card
+          titulo="Persian cat"
+          description="This is my lovely cat"
+          image="https://cdn2.thecatapi.com/images/MTgwMDcwNg.jpg"
+        />
+        ;
+        <Card
+          titulo="So adorable Cat"
+          description="This cat is always sleeping"
+          image="https://cdn2.thecatapi.com/images/49r.gif"
+        />
       </div>
     </>
   );
